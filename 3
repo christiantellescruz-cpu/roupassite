@@ -1,0 +1,6 @@
+// Função para exibir um alerta quando o usuário clicar no botão "Comprar"
+document.querySelectorAll('.produto button').forEach(button => {
+  button.addEventListener('click', function() {
+    alert('Produto adicionado ao carrinho!');
+  });
+});
